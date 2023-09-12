@@ -58,3 +58,4 @@ WAS는 동적인 컨텐츠를 처리하고 비즈니스 로직을 넣을 수 있
 ---
 ### 참조
 - https://www.youtube.com/watch?v=mcnJcjbfjrs&ab_channel=%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC
+- https://dev-coco.tistory.com/163
