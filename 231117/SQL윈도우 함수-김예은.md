@@ -1,0 +1,26 @@
+### 윈도우절
+
+ROWS or RANGE를 하나 선택하고, BETWEEN도 선택적으로 사용해 결과범위를 지정합니다.
+
+### 지정 예시
+
+- BETWWEN이 있을 때
+
+ ROWS|RANGE
+BETWEEN UNBOUNDED PRECEDING | CURRENT ROW | 상수값 PRECEDING 또는 FOLLOWING
+AND UNBOUNDED FOLLOWING| CURRENT ROW | 상수값 PRECEDING 또는 FOLLOWING
+
+
+- BETWWEN이 없을 때
+
+ROWS|RANGE UNBOUNDED PRECEDING | CURRENT ROW | 상수값 PRECEDING 
+
+### 의미
+
+ROWS : 물리적인 행 단위
+RANGE : 논리적인 행 집합
+CURRENT ROW : 현재행
+UNBOUNDED PRECEDING : 첫 번째 행
+ UNBOUNDED FOLLOWING: 마지막 행
+[위치] PRECEDING : [위치] 이전 행
+[위치] FOLOOWING : [위치] 다음 행
